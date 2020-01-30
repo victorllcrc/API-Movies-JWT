@@ -1,5 +1,4 @@
 const Joi = require('joi')
-//const log = require('./../../../utils/logger')
 
 const blueprintUsuario = Joi.object().keys({
     username: Joi.string().alphanum().min(3).max(30).required(),

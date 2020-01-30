@@ -1,6 +1,5 @@
 const swaggerUi = require('swagger-ui-express')
 const swaggerJsDoc = require('swagger-jsdoc')
-//const routes = require("./api/controllers/movies/movies.routes")
 
 const options={
     swaggerDefinition:{
