@@ -1,0 +1,15 @@
+utilice las siguientes librerias
+
+mongoose : para la coneccion a la base de datos de mongo cloud y creacion de modelos
+passport : para llevar la autentificacion con JWT
+joi : para la hacer las validadciones de los recursos
+bcrypt: para hacer el hash de las contraeñas
+jsonwebtoken : para generar los token
+dotenv : para las variables de entorno
+swagger-ui-express y swagger-jsdoc : para hacer la documentacion en swagger
+
+
+tengo 1 duda con respecto a las variables de entorno ya que se repiten tanto en el .env y en el docker-compose.yml
+
+por cuestiones de practicidad para el uso de la API subire al git el  .env y el docker-compose.yml , tengo entendido que estos archivos no se suben al git
+

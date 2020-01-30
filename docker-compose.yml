@@ -1,0 +1,25 @@
+version: "3"
+
+services: 
+    app:
+        build: .
+        environment: 
+            - PORT=3000
+            - DB_USER_DEV=ejemplo   
+            - DB_PASSWORD_DEV=ejemplo
+            - DB_HOST_DEV=victor-c4qch.mongodb.net
+            - DB_NAME_DEV=apiMovie
+            - JWT_SECRET_DEV=secretodevepment
+            - JWT_TIME_DEV=86400
+            - DB_USER_PROD=ejemplo   
+            - DB_PASSWORD_PROD=ejemplo
+            - DB_HOST_PROD=victor-c4qch.mongodb.net
+            - DB_NAME_PROD=apiMovie
+            - JWT_SECRET_PROD=secretoproduction
+            - JWT_TIME_PROD=86400
+        ports: 
+            - "3000:3000"
+        volumes: 
+            - .:/usr/src/api
+            - /usr/src/api/node_modules
+        
