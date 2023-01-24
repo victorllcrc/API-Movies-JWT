@@ -18,13 +18,13 @@
     "nodemon": "^2.0.2",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
-    "swagger-express-mw": "^0.1.0",
+    "swagger-express-mw": "^0.7.0",
     "swagger-jsdoc": "^3.5.0",
     "swagger-ui-express": "^4.1.3"
   },
   "devDependencies": {
     "should": "^7.1.1",
-    "supertest": "^1.2.0"
+    "supertest": "^6.3.3"
   },
   "scripts": {
     "start": "nodemon -r dotenv/config app.js",
